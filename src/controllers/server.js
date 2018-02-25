@@ -261,16 +261,16 @@ class Server extends EventEmitter {
 
         switch (status) {
         case Status.OFF:
-            this.emit('console', `${Ansi.style.cyan}[Pterodactyl Daemon] Server marked as ${Ansi.style.bold}OFF`);
+            this.emit('console', `${Ansi.style.cyan}[Craftaserv] Serveur marqué comme ${Ansi.style.bold}OFF`);
             break;
         case Status.ON:
-            this.emit('console', `${Ansi.style.cyan}[Pterodactyl Daemon] Server marked as ${Ansi.style.bold}ON`);
+            this.emit('console', `${Ansi.style.cyan}[Craftaserv] Serveur marqué comme ${Ansi.style.bold}ON`);
             break;
         case Status.STARTING:
-            this.emit('console', `${Ansi.style.cyan}[Pterodactyl Daemon] Server marked as ${Ansi.style.bold}STARTING`);
+            this.emit('console', `${Ansi.style.cyan}[Craftaserv] Serveur marqué comme ${Ansi.style.bold}STARTING`);
             break;
         case Status.STOPPING:
-            this.emit('console', `${Ansi.style.cyan}[Pterodactyl Daemon] Server marked as ${Ansi.style.bold}STOPPING`);
+            this.emit('console', `${Ansi.style.cyan}[Craftaserv] Serveur marqué comme ${Ansi.style.bold}STOPPING`);
             break;
         default:
             break;
